@@ -1,12 +1,55 @@
-# Dream Education — Chat Code Bundle
+# Dream Education 
 
-This ZIP contains a reconstructed starter bundle from code shared in the conversation. It is not a copy of your full local project: files not pasted into chat (including model binaries, complete auth/course/subject/progress routes, existing database contents, AuthContext, Navbar, SubjectGrid, ProgressOverview, and package.json) cannot be recovered exactly.
+Interactive Learning Platform for Classes 1–12
 
-## Setup
-See `SETUP.md` before running. Back up your current project/database before copying files over.
+Dream Education is an educational platform designed to make learning more engaging, interactive, and accessible for school students. It combines structured learning resources with interactive 3D visualization and quizzes to help students understand concepts more effectively.
 
-## Important
-- Install the frontend packages from your existing package.json, including React, lucide-react, @react-three/fiber, @react-three/drei, three, and Tailwind if used.
-- The sample API endpoint paths must match your real Flask route implementations.
-- The included SQLite schema creates a fresh database; do not point it at your existing database without backing it up.
-- Put your own `.glb` files in `frontend/public/models/biology/`. The model files themselves are not included.
+🚀 Features
+
+- 📚 Subject-Based Learning — Organized subjects, courses, modules, and lessons.
+- 🧠 Daily Quiz — Practice questions to test knowledge and improve learning.
+- 🧊 Interactive 3D Learning — Explore 3D educational models with rotation and zoom controls.
+- 🥽 VR Learning Support — Designed to support immersive learning experiences.
+- 📊 Progress Tracking — Track learning progress and student achievements.
+- 👤 Student Profile — View student information and learning statistics.
+- ⚙️ Personalized Settings — Customize learning preferences.
+
+🛠️ Technology Stack
+
+Frontend
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Three.js and React Three Fiber
+
+Backend
+
+- Python
+- Flask
+- SQLite
+
+
+⚙️ Getting Started
+
+1. Clone or download this repository.
+2. Follow the setup instructions in "SETUP.md".
+3. Install the required frontend and backend dependencies.
+4. Configure the database and required 3D model assets.
+5. Start the Flask backend and React development server.
+
+🎯 Project Goal
+
+The goal of Dream Education is to make school education more engaging through interactive digital learning, visual exploration, and knowledge assessment.
+
+🔮 Future Enhancements
+
+- AI-powered educational tutor
+- Expanded curriculum for Classes 1–12
+- More interactive 3D models and VR experiences
+- Enhanced student analytics and personalized learning paths
+
+👩‍💻 Project Status
+
+This project is under development. Features and setup requirements may evolve as development continues.
